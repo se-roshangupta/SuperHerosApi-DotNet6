@@ -16,7 +16,7 @@ namespace SuperHerosApi.Controllers
 
         //Get Hero List
         [HttpGet]
-        //public async Task<IActionResult> Get()
+        //public async Task<IActionResult> Get()  
         public async Task<ActionResult<List<SuperHeros>>> Get() //To show In Schemas
         {
             // From Database 
